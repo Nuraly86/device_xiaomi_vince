@@ -132,9 +132,6 @@ HWUI_COMPILE_FOR_PERF := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vince
 TARGET_RECOVERY_DEVICE_MODULES := libinit_vince
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/battery_charging_enabled
 
