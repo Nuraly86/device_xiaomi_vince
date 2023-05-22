@@ -53,6 +53,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Prebuilt
+PRODUCT_PACKAGES += \
+    Camera
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
