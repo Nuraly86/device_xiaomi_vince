@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit extra stuff
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+# Dolby
+$(call inherit-product, vendor/dolby/ds/dolby-product.mk)
 
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
