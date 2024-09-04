@@ -368,6 +368,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.zram \
     init.goodix.sh \
     init.msm.usb.configfs.rc \
     init.qcom.early_boot.sh \
