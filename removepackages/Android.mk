@@ -5,6 +5,7 @@ LOCAL_MODULE := removepackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+	AudioFX \
 	Aperture \
 	arcore \
 	AICorePrebuilt \
@@ -12,8 +13,12 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AndroidAutoStubPrebuilt \
 	Camera2 \
         DevicePersonalizationPrebuiltPixel2020 \
+        DuckDuckGo \
         Flash \
 	GoogleTTS \
+	Gallery2 \
+	Jellyfish \
+	Jelly \
 	Maps \
 	Photos \
 	PixelThemesStub \
@@ -22,6 +27,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	PixelLiveWallpaperPrebuilt \
 	SnapCamera \
 	SafetyHubPrebuilt \
+        SimpleGallery \
 	TurboPrebuilt \
 	Velvet \
 	WellbeingPrebuilt \
