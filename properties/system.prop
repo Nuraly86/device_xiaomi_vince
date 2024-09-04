@@ -33,6 +33,11 @@ ro.fm.transmitter=false
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Hardware Description
+ro.device.chipset=Qualcomm Snapdragon™625
+ro.device.display_resolution=5.99" IPS LCD 1080x2160
+ro.device.colorbody_phone=Graphite Gray
+
 # Media
 av.debug.disable.pers.cache=1
 media.msm8956hw=0

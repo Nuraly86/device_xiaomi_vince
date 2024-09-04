@@ -28,12 +28,16 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit extra stuff
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
-# Inherit some common DerpfestOS stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
+
+# Flags
+DEVICE_MAINTAINER := AL
+DEVICE_MAINTAINER_LINK := https://t.me/k4ngcaribug
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := derp_vince
+PRODUCT_NAME := arrow_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
