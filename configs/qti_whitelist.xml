@@ -38,10 +38,12 @@
     <allow-in-power-save package="com.fingerprints.extension.service" />
     <allow-in-power-save package="com.qualcomm.atfwd" />
     <allow-in-power-save package="com.qualcomm.qti.autoregistration" />
+    <allow-in-power-save package="com.qualcomm.qti.biometrics.fingerprint.service" />
     <allow-in-power-save package="com.qualcomm.qti.callenhancement" />
     <allow-in-power-save package="com.qualcomm.qti.gsma.services.nfc" />
     <allow-in-power-save package="com.qualcomm.qti.ims" />
     <allow-in-power-save package="com.qualcomm.qti.radioconfiginterface" />
+    <allow-in-power-save package="com.xiaomi.parts" />
     <allow-in-power-save package="com.qualcomm.qti.server.wigigapp" />
     <allow-in-power-save package="com.qualcomm.qti.smartassistant" />
     <allow-in-power-save package="com.qualcomm.qti.StatsPollManager" />
@@ -115,6 +117,7 @@
     <hidden-api-whitelisted-app package="org.codeaurora.bluetooth" />
     <hidden-api-whitelisted-app package="org.codeaurora.gallery" />
     <hidden-api-whitelisted-app package="org.codeaurora.snapcam" />
+    <allow-implicit-broadcast action="org.codeaurora.intent.action.CALL_COMPOSER_INFO" />
 
     <!-- camera applications -->
     <hidden-api-whitelisted-app package="com.google.camera.GoogleCamera" />
