@@ -355,6 +355,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.zram \
     fstab.recovery.qcom \
     init.goodix.sh \
     init.msm.usb.configfs.rc \

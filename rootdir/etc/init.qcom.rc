@@ -402,3 +402,8 @@ on property:dev.bootcomplete=1
 
 on property:apexd.status=ready
     symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media.swcodec/lib64/libashmemd_client.so
+
+on property:sys.boot_completed=1
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.zram
+    write /proc/sys/vm/swappiness 100
