@@ -20,10 +20,10 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Flags
 TARGET_BOOT_ANIMATION_RES := 720
-EVEREST_MAINTAINER := "AL"
-TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+MATRIXX_CHIPSET := Snapdragon™625
+MATRIXX_BATTERY := 4000mAh
+MATRIXX_DISPLAY := 1080x2160
+MATRIXX_MAINTAINER := AL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
