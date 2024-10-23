@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
@@ -18,16 +18,23 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
 
-# Flags
+# Afterlife flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_BOOT_ANIMATION_RES := 720
-EVEREST_MAINTAINER := "AL"
+AFTERLIFE_MAINTAINER := AL
+USE_PIXEL_CHARGING := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
 TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+AFTERLIFE_GAPPS = true
+CORE_GAPPS := true
+TARGET_INCLUDE_CHROME := true
+TARGET_INCLUDE_GBOARD := true
+TARGER_INCLUDE_GMAIL := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := lineage_vince
+PRODUCT_NAME := afterlife_vince
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
