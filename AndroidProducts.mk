@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/qassa_vince.mk
+    $(LOCAL_DIR)/nad_vince.mk
