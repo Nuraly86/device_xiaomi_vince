@@ -5,20 +5,32 @@ LOCAL_MODULE := removepackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-		AudioFX \
-	Photos \
-	PixelWallpapers2021 \
-	MatLog \
-	Aperture \
-	Drive \
-	Gmail2 \
-	Maps \
-	AndroidAutoStub \
-	talkback \
-	PersonalSafety \
-	Turbo \
-	GoogleCameraGo \
-AmbientSensePrebuilt \
+    AudioFX \
+    Photos \
+    PixelWallpapers2021 \
+    MatLog \
+    Aperture \
+    arcore \
+    AICorePrebuilt \
+    AiWallpapers \
+    AndroidAutoStubPrebuilt \
+    Camera2 \
+    DevicePersonalizationPrebuiltPixel2020 \
+    DuckDuckGo \
+    Flash \
+    GoogleTTS \
+    Gallery2 \
+    Jellyfish \
+    Jelly \
+    Drive \
+    Gmail2 \
+    Maps \
+    AndroidAutoStub \
+    talkback \
+    PersonalSafety \
+    Turbo \
+    GoogleCameraGo \
+    AmbientSensePrebuilt \
     AppDirectedSMSService \
     ConnMO \
     DCMO \
@@ -41,6 +53,14 @@ AmbientSensePrebuilt \
     Papers \
     PrebuiltGmail \
     PixelLiveWallpaperPrebuilt \
+    PixelThemesStub \
+    PixelThemesStub2022_and_newer \
+    PixelWallpapers2023 \
+    PixelLiveWallpaperPrebuilt \
+    SnapCamera \
+    SafetyHubPrebuilt \
+    SimpleGallery \
+    TurboPrebuilt \
     RecorderPrebuilt \
     SafetyHubPrebuilt \
     SCONE \
