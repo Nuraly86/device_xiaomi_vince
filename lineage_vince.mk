@@ -19,11 +19,11 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 -include vendor/lineage-priv/keys/keys.mk
 
 # Flags
-TARGET_BOOT_ANIMATION_RES := 720
-MATRIXX_CHIPSET := Snapdragon™625
-MATRIXX_BATTERY := 4000mAh
-MATRIXX_DISPLAY := 1080x2160
-MATRIXX_MAINTAINER := AL
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon™625" \
+    RISING_MAINTAINER="AL"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
